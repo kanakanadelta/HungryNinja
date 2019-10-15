@@ -30,7 +30,7 @@ namespace HungryNinja
         {
             Menu = new List<Food>()
             {
-                new Food("Example Food", 1000, false, false)
+                new Food("10 Piece Sushi", 600, false, false)
             };
         }
 
@@ -59,7 +59,7 @@ namespace HungryNinja
         {
             get
             {
-                if(calorieIntake > 1200)
+                if(CalorieIntake > 1200)
                     return true;
                 else
                     return false;
@@ -68,15 +68,15 @@ namespace HungryNinja
         // eat method
         public void Eat(Food item)
         {
-            if(!IsFull)
+            if(IsFull)
             {
-                CalorieIntake+=item.Calories;
-                FoodHistory.Add(item);
-                System.Console.WriteLine($"Ninja ate {item}. Spicy: {item.IsSpicy}, Sweet: {item.IsSweet}.");
+                System.Console.WriteLine("Ninja is full!");
             }
             else
             {
-                System.Console.WriteLine("Ninja is full!");
+                CalorieIntake+=item.Calories;
+                FoodHistory.Add(item);
+                System.Console.WriteLine($"Ninja ate {item.Name}. Spicy: {item.IsSpicy}, Sweet: {item.IsSweet}.");
             }
         }
     }
@@ -85,7 +85,22 @@ namespace HungryNinja
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Buffet time!");
+            Buffet kingBuffet = new Buffet();
+            kingBuffet.Menu.Add(new Food("Mochi", 100, false, true));
+            kingBuffet.Menu.Add(new Food("Tonkatsu", 350, false, false));
+            kingBuffet.Menu.Add(new Food("Edamame", 200, false, false));
+            kingBuffet.Menu.Add(new Food("Sweet and Spicy Pork", 350, true, true));
+
+            Ninja ninja = new Ninja();
+
+            ninja.Eat(kingBuffet.Serve());
+            ninja.Eat(kingBuffet.Serve());
+            ninja.Eat(kingBuffet.Serve());
+            ninja.Eat(kingBuffet.Serve());
+            ninja.Eat(kingBuffet.Serve());
+            ninja.Eat(kingBuffet.Serve());
+            ninja.Eat(kingBuffet.Serve());
         }
     }
 }
