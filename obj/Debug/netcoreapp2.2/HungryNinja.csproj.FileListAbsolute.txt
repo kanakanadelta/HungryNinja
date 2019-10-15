@@ -1,0 +1,11 @@
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.deps.json
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.runtimeconfig.json
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.runtimeconfig.dev.json
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.dll
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/bin/Debug/netcoreapp2.2/HungryNinja.pdb
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.csprojAssemblyReference.cache
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.csproj.CoreCompileInputs.cache
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.AssemblyInfoInputs.cache
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.AssemblyInfo.cs
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.dll
+/Users/rtongson/Documents/csharp/oopfun/HungryNinja/obj/Debug/netcoreapp2.2/HungryNinja.pdb
